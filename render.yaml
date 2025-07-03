@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: portafolio-laravel
+    env: docker
+    plan: free
+    buildCommand: ""
+    startCommand: "apache2-foreground"
